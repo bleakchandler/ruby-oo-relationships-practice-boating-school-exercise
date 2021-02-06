@@ -1,4 +1,10 @@
 require_relative '../config/environment.rb'
+require 'pry'
+
+
+require_all 'app/models'
+
+
 
 def reload
   load 'config/environment.rb'
